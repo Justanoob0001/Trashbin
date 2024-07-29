@@ -1,0 +1,118 @@
+/*jason Brown 8745764*/
+html{
+    font : normal normal normal 20px/2 'Calibri'
+}
+
+.main-Secondsection{
+    color: red;
+}
+footer P{
+    color: green;
+}
+
+#bio {
+    color: orange;
+}
+section{
+    color: red;
+}
+
+aside p{
+    color: green;
+}
+
+a:hover{
+    color: rgb(145, 145, 40);
+}
+
+blockquote {
+    color: aqua;
+}
+
+header{
+    background-image: -o-linear-gradient(yellow, blueviolet, red)
+}
+h1 {
+    text-align: center;
+    font-size: large;
+}
+
+img{
+    color: aliceblue;
+    border-style: dotted;
+    border-color: red;
+    margin: .5rem;
+    padding: .75rem;
+    background-color: black;
+
+}
+   
+
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 100;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    color: aliceblue;
+    border-style: dotted;
+    border-color: red;
+    margin: .5rem;
+    padding: .75rem;
+    background-color: black;
+}
+
+body {
+    background-color: grey;
+    width: 1800px;
+}
+
+footer, main, aside{
+    margin: .5rem;
+    padding: .75rem;
+    
+}
+/*1200+20+40+80=1340*/
+main {
+    background-color: rgba(0, 0, 255, 0.664);
+    border-style: dotted;
+    border-color: black;
+    width: 63%;
+    float:left;
+}
+main > q{
+    font-style: oblique;
+    border: 1.5reem;
+}
+h2, h3, h4{
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+}
+
+aside {
+    border-style: dotted;
+    border-color: black;
+    width: 30%;
+    background-color: purple;
+    float: right;
+}
+
+h5, h6 {
+    font-variant: small-caps;
+    color: blueviolet;
+}
+aside > p{
+    color: brown;
+    line-height: 1.25rem;
+    
+
+}
+
+footer {
+    font-size: small;
+    clear : both;
+    background-image: -o-linear-gradient(rgb(17, 138, 47) 40%, rgb(69, 11, 161))
+}
